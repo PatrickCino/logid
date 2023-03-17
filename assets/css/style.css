@@ -165,7 +165,8 @@ body {
 
 .container { padding-inline: 15px; }
 
-.section { padding-block: var(--section-padding); }
+.section { padding-block-start: 100px;
+  padding-block-end: 50px }
 
 .h1,
 .h2,
@@ -422,7 +423,7 @@ body {
 
 .hero-title .span {
   color: #ffffff;
-  font-size: var(--fs-2);
+  font-size: 12rem;
   font-weight: var(--fw-700);
 }
 
@@ -975,7 +976,7 @@ body {
     text-align: left;
   }
 
-  .hero-title .span { --fs-2: 6rem; }
+  .hero-title .span { --fs-2: 10rem; }
 
   .hero-text { max-width: 30ch; }
 
@@ -1274,7 +1275,7 @@ body {
 
   .container { max-width: 1180px; }
 
-  .h1 { --fs-3: 12rem; }
+  .h1 { --fs-3: 10rem; }
 
 
 
@@ -1295,7 +1296,7 @@ body {
     background-position: left;
   }
 
-  .hero-title .span { --fs-2: 14rem; }
+  .hero-title .span { --fs-2: 10rem; }
 
   .hero-text { --fs-7: 2.4rem; }
 
